@@ -19,8 +19,8 @@ export const Hero = () => {
         <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
             {/* Background */}
             <div className="absolute inset-0 ">
-                <img 
-                    src="/hero2.png" 
+                <img
+                    src={`${import.meta.env.BASE_URL}hero2.png`}  
                     alt="Hero image" 
                     className="w-full h-full object-cover opacity-40"
                 />
@@ -83,7 +83,7 @@ export const Hero = () => {
                             }>
                                 Contact Me<ArrowRight className="w-5 h-5"/>
                             </Button>
-                            <a href="/resume.pdf" download>
+                            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download>
                             <AnimatedBorderButton>
                                 <Download className="w-5 h-5" />
                                 Download Resume
@@ -111,7 +111,7 @@ export const Hero = () => {
                         <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse"/>
                         <div className="relative max-w-md mx-auto">
                             <div className="relative glass rounded-3xl p-2 glow-border">
-                                <img src="/profile-photo-2.png" alt="Patrick Paragas" className="w-full aspect-4/5 object-cover rounded-2xl"/>
+                                <img src={`${import.meta.env.BASE_URL}profile-photo-2.png`}  alt="Patrick Paragas" className="w-full aspect-4/5 object-cover rounded-2xl"/>
 
                                 {/* Floating Badge */}
                                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">

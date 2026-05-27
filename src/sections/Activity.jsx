@@ -6,7 +6,7 @@ const activities = [
         title: "Midterm Task 1. Data Cleaning and Preparation using Excel",
         description: 
             "Performed data cleaning and preparation in Excel, including removing duplicates, handling missing values, and organizing data for analysis.",
-        image: "/projects/midtermTask1.png",
+        image: `${import.meta.env.BASE_URL}projects/midtermTask1.png`,
         tags: ["Excel", "Validation", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQ0NjQ4NjY5ODc2/details",
         github: "#",
@@ -15,7 +15,7 @@ const activities = [
         title: "Midterm Task 2. Data Analysis using Pivot Table",
         description: 
             "Conducted data analysis using Pivot Tables in Excel to summarize and visualize key information.",
-        image: "/projects/MidtermTask2.png",
+        image: `${import.meta.env.BASE_URL}projects/MidtermTask2.png`,
         tags: ["Excel", "Pivot Table", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQ1NjQzMzAzNjY1/details",
         github: "#",
@@ -24,7 +24,7 @@ const activities = [
         title: "Practice Task 2. Sales DashBoard Submission Link",
         description: 
             "Created a Sales Dashboard using Excel to visualize performance and trends.",
-        image: "/projects/PairedTask3.png",
+        image: `${import.meta.env.BASE_URL}projects/PairedTask3.png`,
         tags: ["Excel", "Data Cleaning", "Normalization"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODI1Nzg3NDA0MzI5/details",
         github: "#",
@@ -33,9 +33,63 @@ const activities = [
         title: "Practice Task 1 Sales Revenue Dataset",
         description: 
             "Analyzed a Sales Revenue dataset to interpret performance and generate insights.",
-        image: "/projects/PairedTask1.png",
+        image: `${import.meta.env.BASE_URL}projects/PairedTask1.png`,
         tags: ["Excel", "Normalization", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQzNDIzMTEwODMz/details",
+        github: "#",
+    },
+    {
+        title: "Finals Practice Task 1. Data Preparations using SQL",
+        description: 
+            "Integrating SQL into the data analysis to visualize performance and trends.",
+        image: `${import.meta.env.BASE_URL}projects/FinalPracticeTask1.png`,
+        tags: ["SQL", "Data Analytics", "Database Management"],
+        link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODU5MTQ4ODQ2NzE2/details",
+        github: "#",
+    },
+    {
+        title: "Finals Task 01. Data Preparation and Analysis using SQL",
+        description:
+            "Applying SQL techniques for data preparation, cleaning, transformation, and analysis to generate meaningful insights and support data-driven decision-making.",
+        image: `${import.meta.env.BASE_URL}projects/FinalsTask01.png`,
+        tags: ["SQL", "Data Preparation", "Data Analysis"],
+        link: "https://classroom.google.com/u/0/c/ODQwOTE3NzE4NjI3/a/ODU5MTYwNTUyNDAx/details",
+        github: "#",
+    },
+    {
+        title: "Finals Essay Task 1. Data Analytics and SQL",
+        description:
+            "Integrating SQL into the data analytics workflow to clean, organize, query, and analyze datasets, enabling the visualization of performance metrics, trends, and actionable business insights.",
+        image: `${import.meta.env.BASE_URL}projects/FinalsEssayTask1.png`,
+        tags: ["SQL", "Data Analytics", "Data Visualization"],
+        link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODYwMjY2Mzg0NTY1/details",
+        github: "#",
+    },
+    {
+        title: "Finals Task 2. Navigating Power BI",
+        description:
+            "Exploring the fundamentals of Power BI, including data connectivity, transformation, modeling, and dashboard creation to effectively visualize and communicate data insights.",
+        image: `${import.meta.env.BASE_URL}projects/FinalsTask2.png`,
+        tags: ["Power BI", "Data Visualization", "Dashboard Design"],
+        link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODYxMzYzNTU2NzMw/details",
+        github: "#",
+    },
+    {
+        title: "Finals Task 3. Time Intelligence Function in Power BI",
+        description:
+            "Utilizing Power BI Time Intelligence functions to analyze date-based data, track performance over time, compare periods, and generate meaningful insights through dynamic reports and dashboards.",
+        image: `${import.meta.env.BASE_URL}projects/FinalsTask03.png`,
+        tags: ["Power BI", "Time Intelligence", "Data Analysis"],
+        link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODYzNTczNzc2MDU3/details",
+        github: "#",
+    },
+    {
+        title: "Finals Task 4. Designing Interactive Reports",
+        description:
+            "Creating interactive Power BI reports using visualizations, filters, slicers, and drill-through features to enhance data exploration, user engagement, and decision-making capabilities.",
+        image: `${import.meta.env.BASE_URL}projects/FinalsTask04.png`,
+        tags: ["Power BI", "Interactive Reports", "Data Visualization"],
+        link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODYzNTc0MDM1NjE3/details",
         github: "#",
     },
 ];

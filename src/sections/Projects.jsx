@@ -7,7 +7,7 @@ const projects = [
         title: "Midterm Task 1. Data Cleaning and Preparation using Excel",
         description: 
             "Performed data cleaning and preparation in Excel, including removing duplicates, handling missing values, and organizing data for analysis.",
-        image: "/projects/midtermTask1.png",
+        image: `${import.meta.env.BASE_URL}projects/midtermTask1.png`,
         tags: ["Excel", "Validation", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQ0NjQ4NjY5ODc2/details",
         github: "#",
@@ -16,7 +16,7 @@ const projects = [
         title: "Midterm Task 2. Data Analysis using Pivot Table",
         description: 
             "Conducted data analysis using Pivot Tables in Excel to summarize and visualize key information.",
-        image: "/projects/MidtermTask2.png",
+        image: `${import.meta.env.BASE_URL}projects/MidtermTask2.png`,
         tags: ["Excel", "Pivot Table", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQ1NjQzMzAzNjY1/details",
         github: "#",
@@ -25,7 +25,7 @@ const projects = [
         title: "Practice Task 2. Sales DashBoard Submission Link",
         description: 
             "Created a Sales Dashboard using Excel to visualize performance and trends.",
-        image: "/projects/PairedTask3.png",
+        image: `${import.meta.env.BASE_URL}projects/PairedTask3.png`,
         tags: ["Excel", "Data Cleaning", "Normalization"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODI1Nzg3NDA0MzI5/details",
         github: "#",
@@ -33,8 +33,8 @@ const projects = [
     {
         title: "Practice Task 1 Sales Revenue Dataset",
         description: 
-            "Analyzed a Sales Revenue dataset to interpret performance and generate insights.",
-        image: "/projects/PairedTask1.png",
+            "Data Analytics is the process of collecting, organizing, and analyzing data to identify useful information and trends for better decision-making. SQL is a programming language used to manage and retrieve data from databases. Together, Data Analytics and SQL help businesses and organizations analyze large amounts of data efficiently and generate meaningful reports.",
+        image: `${import.meta.env.BASE_URL}projects/PairedTask1.png`,
         tags: ["Excel", "Normalization", "Data Cleaning"],
         link: "https://classroom.google.com/c/ODQwOTE3NzE4NjI3/a/ODQzNDIzMTEwODMz/details",
         github: "#",
